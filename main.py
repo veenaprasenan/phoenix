@@ -40,35 +40,35 @@ def buzzer():
 def pr_check() :
     if pr in range(20,25) :
         print("LEVEL 1 ACCIDENT")
-        sendTo = 'veenavellappally@gmail.com'
+        sendTo = 'ctrlstation@gmail.com'
         emailSubject = "level1 Accident Detected!"
         emailContent = "Location::"+IPa
         emailContent = emailContent+ "....Aciident detected- Name: Micheal ,Address: Tarson Villa,MNC, Cochin,Kerala "
         sender.sendmail(sendTo, emailSubject, emailContent)
     elif pr in range(25,30) :
         print("LEVEL 2 ACCIDENT")
-        sendTo = 'veenavellappally@gmail.com'
+        sendTo = 'ctrlstation@gmail.com'
         emailSubject = "level2 Accident Detected!"
         emailContent = "Location::"+IPa
         emailContent = emailContent+ "....Aciident detected- Name: Micheal ,Address: Tarson Villa,MNC, Cochin,Kerala"
         sender.sendmail(sendTo, emailSubject, emailContent)
     elif pr in range(30,35) :
         print("LEVEL 3 ACCIDENT")
-        sendTo = 'veenavellappally@gmail.com'
+        sendTo = 'ctrlstation@gmail.com'
         emailSubject = "level 3 Accident Detected!"
         emailContent = "Location::"+IPa
         emailContent = emailContent+ "....Aciident detected- Name: Micheal  ,Address: Tarson Villa,MNC, Cochin,Kerala "
         sender.sendmail(sendTo, emailSubject, emailContent)
     elif pr in range(35,40) :
         print("LEVEL 4 ACCIDENT")
-        sendTo = 'veenavellappally@gmail.com'
+        sendTo = 'ctrlstation@gmail.com'
         emailSubject = "level 4 Accident Detected!"
         emailContent = "Location::"+IPa
         emailContent = emailContent+  "....Aciident detected- Name: Micheal  ,Address: Tarson Villa,MNC, Cochin,Kerala"
         sender.sendmail(sendTo, emailSubject, emailContent)
     else :
         print("LEVEL 5 ACCIDENT")
-        sendTo = 'veenavellappally@gmail.com'
+        sendTo = 'ctrlstation@gmail.com'
         emailSubject = "level 5 Accident Detected!"
         emailContent = "Location::"+IPa
         emailContent = emailContent+  "....Aciident detected- Name: Micheal  ,Address: Tarson Villa,MNC, Cochin,Kerala"
@@ -77,21 +77,21 @@ def pr_check() :
 def sp_check() :
     if sp in range(50,75) :
         print("LEVEL 3 ACCIDENT")
-        sendTo = 'veenavellappally@gmail.com'
+        sendTo = 'ctrlstation@gmail.com'
         emailSubject = "level3 Accident Detected!"
         emailContent = "Location::"+IPa
         emailContent = emailContent+ "....Aciident detected- Name: Micheal  ,Address: Tarson Villa,MNC, Cochin,Kerala"
         sender.sendmail(sendTo, emailSubject, emailContent)
     elif sp in range(75,100) :
         print("LEVEL 4 ACCIDENT")
-        sendTo = 'veenavellappally@gmail.com'
+        sendTo = 'ctrlstation@gmail.com'
         emailSubject = "level4 Accident Detected!"
         emailContent = "Location::"+IPa
         emailContent = emailContent+ "....Aciident detected- Name: Micheal  ,Address: Tarson Villa,MNC, Cochin,Kerala"
         sender.sendmail(sendTo, emailSubject, emailContent)
     else :
         print ("LEVEL 5 ACCIDENT")
-        sendTo = 'veenavellappally@gmail.com'
+        sendTo = 'ctrlstation@gmail.com'
         emailSubject = "level5 Accident Detected!"
         emailContent = "Location::"+IPa
         emailContent = emailContent+  "....Aciident detected- Name: Micheal  ,Address: Tarson Villa,MNC, Cochin,Kerala"
